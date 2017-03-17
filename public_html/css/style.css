@@ -18,13 +18,13 @@ and open the template in the editor.
 ul li {  
     /*Agregando colores a la barra de menu*/
     list-style-type: none;
-    background: #0040FF;
+    background: #00FF40;
     display: inline;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
     border-radius: 7px;
-    color:#A9F5F2;
+    color:#00FF40;
 
 }
 
@@ -37,15 +37,15 @@ ul li {
 
 #cuerpo {
     text-align: center;
-    font-family: magneto;
-    font-size: 26px;
+    font-family: Aharoni;
+    font-size: 20px;
 
 }
 #pie  {
 
-    background: #013ADF;
+    background: #00FF40;
     text-align: center;
-    font-family: Berlin Sans FB;
+    font-family: Aharoni;
     font-size: 15px;
     padding: 10px;
     border-radius: 8px;
@@ -61,4 +61,57 @@ a:hover {
 a{
     text-decoration: none;
     background: #013ADF;
+}
+
+form{
+    /*centrando el formulario y poniendo borde*/
+    margin: 0 auto;
+    width: 800px;
+    padding: 1em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: white;
+}
+
+form div{
+    margin-top: 1em;
+}
+
+a:link {
+    color:#F8FBEF
+}
+
+a:visited {
+    color: #F8FBEF
+}
+a:active {
+    color:#F8FBEF
+}
+
+label{
+
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+input, textarea { 
+    font: 1em Arial;
+    width:200px;
+}
+
+input:focus, textarea:focus{
+    border-color: red;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+h1{
+    text-align: center;
+}
+
+#fondo{
+    background: #00FF40;
 }
